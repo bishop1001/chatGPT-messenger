@@ -23,7 +23,7 @@ function sendMessage() {
 }
 function sendIut() {
   console.log("called iutcs")
-   fetch('https://iut-cs-backend.onrender.com/api/blogs?populate=*')
+   fetch('https://iut-backend.onrender.com/api/blogs?populate=*')
     .then(response =>console.log(response) )
    
 }

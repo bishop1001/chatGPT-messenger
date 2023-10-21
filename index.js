@@ -16,7 +16,7 @@ function repeatEverySecond() {
 
 function sendMessage() {
   console.log("called")
-    fetch('https://chatgpt-messenger-dxpa.onrender.com')
+    fetch('https://messenger-backend-j3mq.onrender.com')
     .then(response =>console.log("chat_server_is_running") )
 
    
